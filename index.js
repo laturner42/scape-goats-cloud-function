@@ -128,8 +128,8 @@ const generateThePuzzle = () => {
   
   words.map((word) => {
     if (placedWords.length === 0) {
-      const x = 6;
-      const y = 6;
+      const x = 8;
+      const y = 8;
       placedWords.push(
         placeWord(map, letterLocations, word, x, y, 0)
       );
